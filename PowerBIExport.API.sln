@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBIExport.API", "PowerBIExport.API.csproj", "{7410A4C9-1C7A-4D1C-9BAD-7B8BA0BCB651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerBIExport.API", "PowerBIExport.API.csproj", "{7410A4C9-1C7A-4D1C-9BAD-7B8BA0BCB651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerBI.UI", "PowerBI.UI", "{4EC92817-1155-4CCE-8359-E26FE240082C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\PowerBI.UI\PowerBI.UI\Home.html = ..\..\PowerBI.UI\PowerBI.UI\Home.html
+		..\..\PowerBI.UI\PowerBI.UI\pbi-api.js = ..\..\PowerBI.UI\PowerBI.UI\pbi-api.js
+		..\..\PowerBI.UI\PowerBI.UI\spinner.gif = ..\..\PowerBI.UI\PowerBI.UI\spinner.gif
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
